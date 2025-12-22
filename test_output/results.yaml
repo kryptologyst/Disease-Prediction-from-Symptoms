@@ -1,0 +1,246 @@
+accuracy: 0.8975
+macro_auc: 0.9917220558458885
+macro_auprc: 0.9516965475593755
+per_class:
+  ? !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - U7
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - 28
+    - 4
+    - 8
+  - !!binary |
+    QQAAAGwAAABsAAAAZQAAAHIAAABnAAAAeQAAAA==
+  : auc: 0.9951083633399008
+    auprc: 0.9687404848228018
+    sensitivity: 0.9024390243902439
+    specificity: 0.9944289693593314
+    ppv: 0.9487179487179487
+    npv: 0.9889196675900277
+    support: 41
+  ? !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - U9
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - 36
+    - 4
+    - 8
+  - !!binary |
+    QQAAAHIAAAB0AAAAaAAAAHIAAABpAAAAdAAAAGkAAABzAAAA
+  : auc: 0.9934857663995831
+    auprc: 0.9730072590317103
+    sensitivity: 0.813953488372093
+    specificity: 0.9971988795518207
+    ppv: 0.9722222222222222
+    npv: 0.978021978021978
+    support: 43
+  ? !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - U8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - 32
+    - 4
+    - 8
+  - !!binary |
+    RAAAAGkAAABhAAAAYgAAAGUAAAB0AAAAZQAAAHMAAAA=
+  : auc: 0.9973009446693658
+    auprc: 0.9743804880591034
+    sensitivity: 0.9487179487179487
+    specificity: 0.9861495844875346
+    ppv: 0.8809523809523809
+    npv: 0.994413407821229
+    support: 39
+  ? !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - U3
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - 12
+    - 4
+    - 8
+  - !!binary |
+    RgAAAGwAAAB1AAAA
+  : auc: 0.9973290598290598
+    auprc: 0.9738843135584424
+    sensitivity: 0.9166666666666666
+    specificity: 0.9945054945054945
+    ppv: 0.9428571428571428
+    npv: 0.9917808219178083
+    support: 36
+  ? !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - U14
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - 56
+    - 4
+    - 8
+  - !!binary |
+    RgAAAG8AAABvAAAAZAAAACAAAABQAAAAbwAAAGkAAABzAAAAbwAAAG4AAABpAAAAbgAAAGcAAAA=
+  : auc: 1.0
+    auprc: 1.0
+    sensitivity: 0.975609756097561
+    specificity: 1.0
+    ppv: 1.0
+    npv: 0.9972222222222222
+    support: 41
+  ? !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - U12
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - 48
+    - 4
+    - 8
+  - !!binary |
+    SAAAAGUAAABhAAAAcgAAAHQAAAAgAAAAQQAAAHQAAAB0AAAAYQAAAGMAAABrAAAA
+  : auc: 0.9956816320452684
+    auprc: 0.960377449409153
+    sensitivity: 0.9459459459459459
+    specificity: 0.9862258953168044
+    ppv: 0.875
+    npv: 0.9944444444444445
+    support: 37
+  ? !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - U12
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - 48
+    - 4
+    - 8
+  - !!binary |
+    SAAAAHkAAABwAAAAZQAAAHIAAAB0AAAAZQAAAG4AAABzAAAAaQAAAG8AAABuAAAA
+  : auc: 0.9516744913928012
+    auprc: 0.7436034734130696
+    sensitivity: 0.7111111111111111
+    specificity: 0.9633802816901409
+    ppv: 0.7111111111111111
+    npv: 0.9633802816901409
+    support: 45
+  ? !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - U8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - 32
+    - 4
+    - 8
+  - !!binary |
+    TQAAAGkAAABnAAAAcgAAAGEAAABpAAAAbgAAAGUAAAA=
+  : auc: 0.9899449690875739
+    auprc: 0.9510179575925074
+    sensitivity: 0.926829268292683
+    specificity: 0.9916434540389972
+    ppv: 0.926829268292683
+    npv: 0.9916434540389972
+    support: 41
+  ? !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - U9
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - 36
+    - 4
+    - 8
+  - !!binary |
+    UAAAAG4AAABlAAAAdQAAAG0AAABvAAAAbgAAAGkAAABhAAAA
+  : auc: 0.9983333333333334
+    auprc: 0.9851954609746933
+    sensitivity: 0.925
+    specificity: 0.9888888888888889
+    ppv: 0.9024390243902439
+    npv: 0.9916434540389972
+    support: 40
+  ? !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - U19
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - 76
+    - 4
+    - 8
+  - !!binary |
+    UwAAAHAAAABpAAAAbgAAAGEAAABsAAAAIAAAAEQAAABpAAAAcwAAAGMAAAAgAAAAUAAAAHIAAABv
+    AAAAYgAAAGwAAABlAAAAbQAAAA==
+  : auc: 0.9983619983619983
+    auprc: 0.986758588732273
+    sensitivity: 0.9459459459459459
+    specificity: 0.9834710743801653
+    ppv: 0.8536585365853658
+    npv: 0.9944289693593314
+    support: 37
+calibration_error: 0.0

@@ -1,0 +1,74 @@
+# Default configuration for disease prediction from symptoms
+
+# Data configuration
+data:
+  synthetic_size: 2000
+  test_size: 0.2
+  random_state: 42
+  include_metadata: true
+
+# Model configuration
+model:
+  type: "xgboost"  # Options: logistic, xgboost, lightgbm, deep
+  params:
+    # Logistic Regression
+    logistic:
+      max_iter: 1000
+    # XGBoost
+    xgboost:
+      n_estimators: 100
+      max_depth: 6
+      learning_rate: 0.1
+    # LightGBM
+    lightgbm:
+      n_estimators: 100
+      max_depth: 6
+      learning_rate: 0.1
+    # Deep Tabular
+    deep:
+      hidden_dims: [128, 64, 32]
+      dropout_rate: 0.3
+      learning_rate: 0.001
+      batch_size: 32
+      epochs: 100
+
+# Training configuration
+training:
+  cv_folds: 5
+  test_size: 0.2
+  random_state: 42
+  save_model: true
+  model_path: "models"
+
+# Evaluation configuration
+evaluation:
+  metrics:
+    - "accuracy"
+    - "auc"
+    - "auprc"
+    - "sensitivity"
+    - "specificity"
+    - "ppv"
+    - "npv"
+    - "calibration_error"
+  save_plots: true
+  output_dir: "assets"
+
+# Explainability configuration
+explainability:
+  use_shap: true
+  background_samples: 100
+  save_explanations: true
+  explanation_dir: "assets/explanations"
+
+# Logging configuration
+logging:
+  level: "INFO"
+  save_logs: true
+  log_dir: "logs"
+
+# Device configuration
+device:
+  use_cuda: true
+  use_mps: true  # Apple Silicon
+  fallback_cpu: true

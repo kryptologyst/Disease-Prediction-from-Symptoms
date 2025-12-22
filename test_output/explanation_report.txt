@@ -1,0 +1,26 @@
+
+EXPLANATION REPORT
+==================
+
+Input Symptoms: fever, cough, sore throat
+
+PREDICTION RESULTS:
+- Predicted Disease: Unknown
+- Confidence: 0.000
+
+DISEASE PROBABILITIES:
+
+SYMPTOM CONTRIBUTIONS:
+
+TOP SYMPTOMS BY IMPORTANCE:
+1. fatigue (Frequency: 708, Importance: 0.000)
+2. fever (Frequency: 448, Importance: 0.000)
+3. headache (Frequency: 428, Importance: 0.000)
+4. chest pain (Frequency: 411, Importance: 0.000)
+5. shortness of breath (Frequency: 410, Importance: 0.000)
+
+INTERPRETATION NOTES:
+- Positive SHAP values indicate symptoms that support the predicted disease
+- Negative SHAP values indicate symptoms that oppose the predicted disease
+- Higher absolute values indicate stronger influence on the prediction
+- This analysis is based on synthetic data and should not be used for clinical decisions
